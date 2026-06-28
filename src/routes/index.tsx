@@ -6,7 +6,7 @@ import { Impact } from "../components/portfolio/Impact";
 import { About } from "../components/portfolio/About";
 import { TechStack } from "../components/portfolio/TechStack";
 import { Projects } from "../components/portfolio/Projects";
-import { Learning } from "../components/portfolio/Learning";
+
 import { Contact } from "../components/portfolio/Contact";
 import { Footer } from "../components/portfolio/Footer";
 import bannerAsset from "../assets/banner.jpeg.asset.json";
@@ -47,7 +47,7 @@ function Index() {
         <About />
         <TechStack />
         <Projects />
-        <Learning />
+        
         <Contact />
       </main>
       <Footer />

@@ -29,18 +29,17 @@ export const techStack = [
     skills: [
       { name: "Java", level: 85 },
       { name: "JavaScript", level: 88 },
-      { name: "TypeScript", level: 78 },
-      { name: "Python", level: 70 },
       { name: "SQL", level: 75 },
+      { name: "Python", level: 70 },
     ],
   },
   {
     title: "Frontend",
     skills: [
       { name: "React", level: 90 },
-      { name: "Next.js", level: 78 },
+      { name: "HTML", level: 95 },
+      { name: "CSS", level: 92 },
       { name: "Tailwind CSS", level: 92 },
-      { name: "Framer Motion", level: 75 },
     ],
   },
   {
@@ -64,10 +63,10 @@ export const techStack = [
   {
     title: "Tools",
     skills: [
-      { name: "Git & GitHub", level: 90 },
+      { name: "Git", level: 90 },
+      { name: "GitHub", level: 90 },
       { name: "VS Code", level: 95 },
       { name: "Vercel", level: 85 },
-      { name: "Figma", level: 70 },
     ],
   },
 ];
@@ -155,13 +154,6 @@ export const projects = [
   },
 ];
 
-export const learning = [
-  "Advanced DSA in Java",
-  "System Design",
-  "Next.js App Router",
-  "TypeScript Patterns",
-  "Cloud & Edge Deployments",
-];
 
 export const credibility = [
   "CS Engineering Student",
