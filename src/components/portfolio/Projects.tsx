@@ -44,12 +44,20 @@ export function Projects() {
                     className="absolute -inset-6 -z-10 rounded-[32px] opacity-0 blur-3xl transition-opacity duration-700 group-hover:opacity-50"
                     style={{ background: "var(--gradient-accent)" }}
                   />
-                  <motion.div
-                    whileHover={{ y: -6, rotate: reverse ? -0.6 : 0.6 }}
-                    transition={{ type: "spring", stiffness: 200, damping: 20 }}
+                  <a
+                    href={p.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`Open ${p.title} live demo`}
+                    className="block cursor-pointer"
                   >
-                    <BrowserFrame src={p.image} alt={p.title} url={urlLabel} />
-                  </motion.div>
+                    <motion.div
+                      whileHover={{ y: -6, rotate: reverse ? -0.6 : 0.6 }}
+                      transition={{ type: "spring", stiffness: 200, damping: 20 }}
+                    >
+                      <BrowserFrame src={p.image} alt={p.title} url={urlLabel} />
+                    </motion.div>
+                  </a>
                 </div>
 
                 <div>
