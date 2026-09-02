@@ -1,8 +1,9 @@
-import truthlensImg from "../assets/truthlens.png.asset.json";
-import hanumanImg from "../assets/hanuman.png.asset.json";
-import rudhraImg from "../assets/rudhra.png.asset.json";
-import weddingImg from "../assets/wedding.png.asset.json";
-import resumeAsset from "../assets/resume.pdf.asset.json";
+// Images are served from the Vite public folder — no imports needed.
+const truthlensImg = { url: "/images/truthlens.png" };
+const hanumanImg = { url: "/images/hanuman.png" };
+const rudhraImg = { url: "/images/rudhra.png" };
+const weddingImg = { url: "/images/wedding.png" };
+const resumeAsset = { url: "/images/resume.pdf" };
 
 export const profile = {
   name: "Rahul Patnaik Potnuru",
@@ -89,7 +90,7 @@ export const projects = [
       "Claim analysis with verification steps",
     ],
     tech: ["React", "TypeScript", "AI APIs", "Tailwind"],
-    live: "https://truthlens-verified-48z2y0k9r-24981a0556-progs-projects.vercel.app/",
+    live: "https://truthlens-verified.vercel.app/",
     github: "https://github.com/24981a0556-prog/truthlens-verified",
   },
   {

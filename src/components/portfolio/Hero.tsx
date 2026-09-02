@@ -2,8 +2,10 @@ import { motion, useReducedMotion } from "framer-motion";
 import { ArrowDown, FileText, Mail, MapPin } from "lucide-react";
 import { MagneticButton } from "./MagneticButton";
 import { profile } from "../../data/portfolio";
-import bannerAsset from "../../assets/banner.jpeg.asset.json";
-import profileAsset from "../../assets/profile.jpeg.asset.json";
+
+// Images served from Vite public folder — no import needed.
+const bannerUrl = "/images/banner.jpeg";
+const profileUrl = "/images/profile.jpeg";
 
 export function Hero() {
   const reduce = useReducedMotion();
@@ -15,7 +17,7 @@ export function Hero() {
       {/* Banner backdrop */}
       <div className="absolute inset-0 -z-10">
         <img
-          src={bannerAsset.url}
+          src={bannerUrl}
           alt=""
           aria-hidden
           className="h-full w-full object-cover opacity-30"
@@ -129,7 +131,7 @@ export function Hero() {
             <div className="surface-card relative overflow-hidden rounded-[28px] p-2">
               <div className="relative overflow-hidden rounded-[22px]">
                 <img
-                  src={profileAsset.url}
+                  src={profileUrl}
                   alt="Rahul Patnaik Potnuru"
                   className="h-[520px] w-full object-cover object-[center_20%]"
                 />
