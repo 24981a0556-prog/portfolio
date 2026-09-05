@@ -3,7 +3,7 @@ const truthlensImg = { url: "/images/truthlens.png" };
 const hanumanImg = { url: "/images/hanuman.png" };
 const rudhraImg = { url: "/images/rudhra.png" };
 const weddingImg = { url: "/images/wedding.png" };
-const resumeAsset = { url: "/images/resume.pdf" };
+const resumeAsset = { url: "/Rahul_Patnaik_Resume.pdf" };
 
 export const profile = {
   name: "Rahul Patnaik Potnuru",
